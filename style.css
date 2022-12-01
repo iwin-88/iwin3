@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    header .main-box{
+        display: inline-block;
+        width: 100%;
+    }
+    header .main-box .logo{
+        width: 150px;
+        margin: auto;
+    }
+    header .main-box .menu{
+        margin: 5px auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    header .main-box .menu a{
+        padding: 5px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .blog h1,
+    .blog h2{
+        font-size: 15px !important;
+        padding: 0px;
+    }
+    .blog p,
+    .blog ul li{
+        font-size: 13px;
+        padding: 0px;
+    }
+    footer .main-box .box{
+        display: inline-block;
+        width: 100%;
+    }
+    footer .main-box .box .logo{
+        width: 100%;
+    }
+    footer .main-box .box .logo img{
+        width: 20%;
+        margin: auto;
+    }
+    footer .main-box .box .about,
+    footer .main-box .box .follow{
+        width: 100%;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    footer .main-box .box .about p{
+        padding: 0px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    header .main-box .menu a{
+        padding: 5px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .blog h1,
+    .blog h2{
+        font-size: 17px !important;
+        padding: 0px;
+    }
+    .blog p,
+    .blog ul li{
+        font-size: 15px;
+        padding: 0px;
+    }
+    footer .main-box .box{
+        display: inline-block;
+        width: 100%;
+    }
+    footer .main-box .box .logo{
+        width: 100%;
+    }
+    footer .main-box .box .logo img{
+        width: 30%;
+        margin: auto;
+    }
+    footer .main-box .box .about,
+    footer .main-box .box .follow{
+        width: 100%;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    footer .main-box .box .about p{
+        padding: 0px;
+        font-size: 15px;
+    }
+}
